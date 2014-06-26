@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 
   {% include head.html %}
-
-    <body>
-
+  <body>
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
-
+    {{ content }}
     {% include footer.html %}
-
-    </body>
+  <script type="text/javascript" src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
+  </body>
 </html>

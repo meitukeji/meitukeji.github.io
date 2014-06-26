@@ -1,7 +1,8 @@
 # Site settings
-title: 魅图科技-专注于开发基于地图的政府、企业、商家、公众应用
+title: 魅图科技-专注于为政府、企业、商家、公众提供地图应用产品和开发服务
 email: meitukeji@163.com
-description: "魅图科技-专注于开发基于地图的政府、企业、商家、公众应用"
+keywords: "地图开发，GIS开发，移动开发"
+description: "魅图科技，为政府、企业、商家、公众开发基于地图、GIS的应用。提供数字城管、网格化管理等政府解决方案；提供企业地图解决方案；提供商家网点分布，商家客户管理，商家货物配送管理等解决方案。"
 baseurl: ""
 url: "http://www.meitukeji.com"
 
