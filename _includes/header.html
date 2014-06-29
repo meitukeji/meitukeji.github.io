@@ -1,8 +1,10 @@
 <header class="site-header">
   <div class="logo-container">
     <div class="container">
-      <img src="../image/logo.png">
-      <span class="logo-title">魅图科技</span>
+      <a href="/">
+        <img src="/image/logo.png">
+        <span class="logo-title">魅图科技</span>
+      </a>
       <span class="logo-links"><span>&nbsp;&nbsp;<a href="http://www.meitukeji.com" onclick="addFavorite(this.href, '魅图科技-地图应用开发商 ');return false;">收藏本站</a>&nbsp;&nbsp;|</span><span>&nbsp;&nbsp;<a href="ContactUs.aspx" target="_blank">联系我们</a>&nbsp;&nbsp;|</span><span>&nbsp;&nbsp;<a href="Recruitment.aspx" target="_blank">招贤纳士</a></span></span>
     </div>
   </div>
@@ -10,12 +12,12 @@
     <div class="navbar">
       <div class="navbar-inner">
           <ul class="nav">
-            <li class="active"><a href="#">首页</a></li>
-            <li><a href="#">产品服务</a></li>
-            <li><a href="#">市场案例</a></li>
-            <li><a href="#">新闻中心</a></li>
-            <li><a href="#">魅图博客</a></li>
-            <li><a href="#">关于我们</a></li>
+            <li {% if page.headerNav == "homepage" %} class="active" {% endif %}><a href="/">首页</a></li>
+            <li {% if page.headerNav == "product" %} class="active" {% endif %}><a href="/products/shuzichengguan/index.html">产品服务</a></li>
+            <li {% if page.headerNav == "case" %} class="active" {% endif %}><a href="/cases/index.html">成功案例</a></li>
+            <li {% if page.headerNav == "news" %} class="active" {% endif %}><a href="/news/index.html">新闻中心</a></li>
+            <li {% if page.headerNav == "blog" %} class="active" {% endif %}><a href="/blogs/index.html">魅图博客</a></li>
+            <li {% if page.headerNav == "aboutus" %} class="active" {% endif %}><a href="/aboutus/aboutus/index.html">关于我们</a></li>
           </ul>
       </div>
     </div><!-- /.navbar -->

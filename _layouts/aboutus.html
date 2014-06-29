@@ -1,0 +1,22 @@
+---
+layout: default
+title: meitukeji
+keywords: 
+description: 
+headerNav: "aboutus"
+---
+<div class="container">
+  <div class="row-fluid">
+	<div class="span3">
+		<div class="well sidebar-nav">
+		  <ul class="nav nav-list">
+		    <li {% if page.siderNav == "aboutus" %} class="active" {% endif %}><a href="/aboutus/aboutus/index.html" ><i class="icon-chevron-right"></i>关于我们</a></li>
+		    <li {% if page.siderNav == "contactus" %} class="active" {% endif %} ><a href="/aboutus/contactus/index.html" ><i class="icon-chevron-right"></i>联系我们</a></li>
+		  </ul>
+		</div><!--/.well -->
+	</div><!--/span-->
+	<div class="span9">
+      {{content}}
+	</div><!--/span-->
+  </div><!--/row-->
+</div>

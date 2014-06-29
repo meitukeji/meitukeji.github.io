@@ -50,19 +50,3 @@
 .carousel-caption .btn {
   margin-top: 10px;
 }
-
-/* Center align the text within the three columns below the carousel */
-.marketing{
-	padding-bottom: 20px;
-}
-.marketing .span4 {
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-  font-size: 20px;
-}
-.marketing .span4 p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
