@@ -11,19 +11,19 @@ headerNav: "product"
 		<div class="well sidebar-nav">
 		  <ul class="nav nav-list">
 		    <li class="nav-header">政府解决方案</li>
-		    <li class="active"><a href="#">数字化城市管理</a></li>
-		    <li><a href="#">创新社会服务管理</a></li>
-		    <li><a href="#">三维城市</a></li>
-		    <li><a href="#">社会经济统计GIS</a></li>
+		    <li {% if page.siderNav == "chengguan" %} class="active" {% endif %}><a href="/products/shuzichengguan/index.html"><i class="icon-chevron-right pull-right"></i>数字化城市管理</a></li>
+		    <li {% if page.siderNav == "sheguan" %} class="active" {% endif %}><a href="/products/shuzisheguan/index.html"><i class="icon-chevron-right pull-right"></i>创新社会服务管理</a></li>
+		    <li {% if page.siderNav == "3dcity" %} class="active" {% endif %}><a href="/products/sanweichengshi/index.html"><i class="icon-chevron-right pull-right"></i>数字城市共享平台</a></li>
+		    <li {% if page.siderNav == "tongjigis" %} class="active" {% endif %}><a href="/products/tongjigis/index.html"><i class="icon-chevron-right pull-right"></i>社会经济统计GIS</a></li>
 		    <li class="nav-header">企业应用</li>
-		    <li><a href="#">位置监控</a></li>
-		    <li><a href="#">商业分析</a></li>
-		    <li><a href="#">地址匹配</a></li>
-		    <li><a href="#">区划管理</a></li>
+		    <li {% if page.siderNav == "lbs" %} class="active" {% endif %}><a href="#"><i class="icon-chevron-right pull-right"></i>位置监控</a></li>
+		    <li {% if page.siderNav == "gbi" %} class="active" {% endif %}><a href="#"><i class="icon-chevron-right pull-right"></i>商业分析</a></li>
+		    <li {% if page.siderNav == "geocode" %} class="active" {% endif %}><a href="#"><i class="icon-chevron-right pull-right"></i>地址匹配</a></li>
+		    <li {% if page.siderNav == "regions" %} class="active" {% endif %}><a href="#"><i class="icon-chevron-right pull-right"></i>区划管理</a></li>
 		    <li class="nav-header">商家服务</li>
-		    <li><a href="#">会员管理</a></li>
-		    <li><a href="#">网点管理</a></li>
-		    <li><a href="#">配送管理</a></li>
+		    <li {% if page.siderNav == "crm" %} class="active" {% endif %}><a href="#"><i class="icon-chevron-right pull-right"></i>会员管理</a></li>
+		    <li {% if page.siderNav == "poi" %} class="active" {% endif %}><a href="#"><i class="icon-chevron-right pull-right"></i>网点管理</a></li>
+		    <li {% if page.siderNav == "peisong" %} class="active" {% endif %}><a href="#"><i class="icon-chevron-right pull-right"></i>配送管理</a></li>
 		  </ul>
 		</div><!--/.well -->
 	</div><!--/span-->
