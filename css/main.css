@@ -201,6 +201,10 @@ footer hr {
 }
 
 /* Center align the text within the three columns below the carousel */
+.hero-unit h1{
+    font-size: 45px;
+}
+    
 .marketing{
   padding-bottom: 30px;
 }
